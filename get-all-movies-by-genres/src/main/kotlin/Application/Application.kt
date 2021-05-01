@@ -1,11 +1,11 @@
-package microservices.getallmoviesbygenrer
+package Application
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class GetAllMoviesByGenrerApplication
+class GetAllMoviesByGenresApplication
 
 fun main(args: Array<String>) {
-    runApplication<GetAllMoviesByGenrerApplication>(*args)
+    runApplication<GetAllMoviesByGenresApplication>(*args)
 }
