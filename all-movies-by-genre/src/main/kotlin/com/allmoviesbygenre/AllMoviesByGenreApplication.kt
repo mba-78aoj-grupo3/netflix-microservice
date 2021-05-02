@@ -9,3 +9,4 @@ class AllMoviesByGenreApplication
 fun main(args: Array<String>) {
     runApplication<AllMoviesByGenreApplication>(*args)
 }
+
