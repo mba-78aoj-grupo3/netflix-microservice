@@ -1,11 +1,11 @@
-package Application
+package com.allmoviesbygenre
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class GetAllMoviesByGenresApplication
+class AllMoviesByGenreApplication
 
 fun main(args: Array<String>) {
-    runApplication<GetAllMoviesByGenresApplication>(*args)
+    runApplication<AllMoviesByGenreApplication>(*args)
 }

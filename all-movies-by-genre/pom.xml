@@ -8,10 +8,10 @@
         <version>2.4.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>microservices</groupId>
-    <artifactId>get-all-movies-by-genrer</artifactId>
+    <groupId>com</groupId>
+    <artifactId>all-movies-by-genre</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>get-all-movies-by-genrer</name>
+    <name>all-movies-by-genre</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>11</java.version>
@@ -44,6 +44,7 @@
 
     <build>
         <sourceDirectory>${project.basedir}/src/main/kotlin</sourceDirectory>
+        <testSourceDirectory>${project.basedir}/src/test/kotlin</testSourceDirectory>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
